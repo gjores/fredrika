@@ -1,0 +1,91 @@
+/*
+Theme Name: Fredrika
+Theme URI: 
+Author: Petter och Fredrik
+Author URI: schoolr.se
+Description: This theme is built as a school website template
+
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body{background:#f6f6f6;
+	padding-top: 60px;
+}
+@media (min-width: 1200px) { 
+	#main .container{
+		max-width: 960px;
+	}
+}
+#main .navbar-default{
+	background: none;
+	border: none;
+}
+
+#main .top-nav li a{
+	color:#48ACBF;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+#main .top-nav li a i{
+	margin-right:5px;
+}
+
+#main .carousel-inner{
+	margin: auto;
+	height:300px;
+}
+
+.carousel-inner > .item > img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-width: 100%;
+   min-height: 500px; /* <--- Change this line to min-height */
+ }
+
+.carousel-row{
+	margin-top:-20px;
+}
+ #main h1{
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+
+.main-nav ul{
+	margin-left: -20px;
+
+}
+#main .main-nav ul li a{
+margin-left: -10px;
+color:#333;
+font-weight: 400;
+font-size: 1.5em;
+}
+
+.item{
+
+
+}
+
+#main .agenda ul{
+margin:0;
+list-style-type: none;
+padding: 0 0 0 0;
+
+}
+#main .agenda ul li {
+margin: 0;
+padding: 0 0 0 0;
+display: block;
+}
+
+.agenda ul li ul{
+margin:0;
+padding: 0;
+}
+
+#main .event{
+	background:#ccc;
+	padding: 5px;
+}
